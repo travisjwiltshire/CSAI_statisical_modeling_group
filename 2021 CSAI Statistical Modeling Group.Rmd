@@ -1,11 +1,24 @@
 ---
 title: "2021 CSAI Statistical Modeling Reading List"
+knit: (function(input_file, encoding) {out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+
 ```
+
+
+# Regression Recap and Ridge/Lasso Regression
+
+Chapter 3. Hastie, T., Tibshirani, R., & Friedman, J. (2009). Elements of Statistical Learning: Data mining, inference, and prediction. 2nd Edition.
+
+* [https://web.stanford.edu/~hastie/ElemStatLearn/](https://web.stanford.edu/~hastie/ElemStatLearn/)
 
 # Generalized Additive Model (GAM)
 
@@ -26,12 +39,6 @@ Bender, A., Groll, A., & Scheipl, F. (2018). A generalized additive model approa
 * [Paper](https://adibender.netlify.com/files/pamtutorial.pdf)
 * [R package and tutorial](https://adibender.github.io/pammtools/)
 
-
-# Ridge/Lasso Regression
-
-Hastie, T., Tibshirani, R., & Friedman, J. (2009). Elements of Statistical Learning: Data mining, inference, and prediction. 2nd Edition.
-
-* [https://web.stanford.edu/~hastie/ElemStatLearn/](https://web.stanford.edu/~hastie/ElemStatLearn/) 
 
 # Mixed Models and Alternatives
 
