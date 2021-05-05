@@ -1,29 +1,34 @@
 ---
 title: "2021 CSAI Statistical Modeling Reading List"
+knit: (function(input_file, encoding) {out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-knit: (function(input_file, encoding) {out_dir <- 'docs';
-  rmarkdown::render(input_file,
- encoding=encoding,
- output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
+
 ```
 
-# Generalized Additive Model (GAM)
+# Overview
+
+Below is an overview of the proposed set of topics/associated reading and code if available. Our aim is to read, discuss, and work with various statiscal modeling methods that would be useful to the variety of work we do in Cognitive Science & AI at Tilburg University. 
+
+## Generalized Additive Model (GAM)
 
 Baayen, R. H., and Linke, M. (in press). An introduction to the generalized additive model. In Gries, S. Th. and M. Paquot (Eds.) A practical handbook of corpus linguistics. Springer, Berlin. 
 
 * [Paper](http://www.sfs.uni-tuebingen.de/~hbaayen/publications/BaayenLinke2020.pdf)
  
-# Generalized Additive Mixed Model (GAMM)
+## Generalized Additive Mixed Model (GAMM)
 
 Chuang, Y-Y., Fon, J., Papakyritsis, I, and Baayen, R. H. (2021). Analyzing phonetic data with generalized additive mixed models. To appear in: Ball, M. J., (editor), Handbook of Clinical Phonetics, Routledge. 
 
 * [Paper](http://www.sfs.uni-tuebingen.de/~hbaayen/publications/ChuangFonBaayen2020.pdf)
 
-# Piece-Wise Exponential Additive Mixed Modeling Tools for Survival Analysis
+## Piece-Wise Exponential Additive Mixed Modeling Tools for Survival Analysis
 
 Bender, A., Groll, A., & Scheipl, F. (2018). A generalized additive model approach to time-to-event analysis. Statistical Modelling, 18(3–4), 299–321. https://doi.org/10.1177/1471082X17748083
 
@@ -31,43 +36,43 @@ Bender, A., Groll, A., & Scheipl, F. (2018). A generalized additive model approa
 * [R package and tutorial](https://adibender.github.io/pammtools/)
 
 
-# Ridge/Lasso Regression
+## Ridge/Lasso Regression
 
 Hastie, T., Tibshirani, R., & Friedman, J. (2009). Elements of Statistical Learning: Data mining, inference, and prediction. 2nd Edition.
 
 * [https://web.stanford.edu/~hastie/ElemStatLearn/](https://web.stanford.edu/~hastie/ElemStatLearn/) 
 
-# Mixed Models and Alternatives
+## Mixed Models and Alternatives
 
 McNeish, D., Stapleton, L. M., & Silverman, R. D. (2017). On the unnecessary ubiquity of hierarchical linear modeling. Psychological Methods, 22(1), 114–140. https://doi.org/10.1037/met0000078
 
-# Power analysis for 2 and 3 level mixed models
+## Power analysis for 2 and 3 level mixed models
 
 Pan, Y., & McBee, M. T. (2014). A Flexible Method for Conducting Power Analysis for Two- and Three-Level Hierarchical Linear Models in R. Journal of Modern Applied Statistical Methods, 13(1), 463–483. https://doi.org/10.22237/jmasm/1398918540
 
 * [Paper with Embedded Code](https://digitalcommons.wayne.edu/cgi/viewcontent.cgi?article=1907&context=jmasm)
 
-# Sample size estimation for longitudinal mixed effects models
+## Sample size estimation for longitudinal mixed effects models
 
 Lafit, G., Adolf, J. K., Dejonckheere, E., Myin-Germeys, I., Viechtbauer, W., & Ceulemans, E. (2021). Selection of the Number of Participants in Intensive Longitudinal Studies: A User-Friendly Shiny App and Tutorial for Performing Power Analysis in Multilevel Regression Models That Account for Temporal Dependencies. Advances in Methods and Practices in Psychological Science, 4(1), 2515245920978738. https://doi.org/10.1177/2515245920978738
 
 * [R Code for Shiny App](https://github.com/ginettelafit/PowerAnalysisIL)
 
-# Generalized linear mixed-model (GLMM) trees: 
+## Generalized linear mixed-model (GLMM) trees: 
 
 Fokkema, M., Edbrooke-Childs, J., & Wolpert, M. (2021). Generalized linear mixed-model (GLMM) trees: A flexible decision-tree method for multilevel and longitudinal data. Psychotherapy Research, 31(3), 329–341. https://doi.org/10.1080/10503307.2020.1785037
 
 * [R Package](https://rdrr.io/cran/glmertree/man/glmertree.html)
 
 
-# GIMME (Group Iterative Multiple Model Estimation)
+## GIMME (Group Iterative Multiple Model Estimation)
 
 Lane, S. T., & Gates, K. M. (2017). Automated Selection of Robust Individual-Level Structural Equation Models for Time Series Data. Structural Equation Modeling: A Multidisciplinary Journal, 24(5), 768–782. https://doi.org/10.1080/10705511.2017.1309978
 
 * [R Package](https://rdrr.io/cran/gimme/man/gimme-package.html)
 * [R Tutorial](https://andysbrainbook.readthedocs.io/en/latest/Statistics/GIMME.html)
 
-# Dynamic Mixture Modeling 
+## Dynamic Mixture Modeling 
 
 Liu, S., Ou, L., & Ferrer, E. (2020). Dynamic Mixture Modeling with dynr. Multivariate Behavioral Research, 0(0), 1–15. https://doi.org/10.1080/00273171.2020.1794775
 
