@@ -25,12 +25,8 @@ Hastie, T., Tibshirani, R., & Friedman, J. (2009). Elements of Statistical Learn
 * [Video on Ridge Regression](https://youtu.be/Q81RR3yKn30)
 * [Video on Lasso Regression](https://youtu.be/NGf0voTMlcs)
 * [R tutorial](https://youtu.be/ctmNq7FgbvI)
-<<<<<<< HEAD
-# Generalized Additive Model (GAM)
-=======
 
 ## Generalized Additive Model (GAM)
->>>>>>> f805c8db844023cd236fa41a58accab95800e211
 
 Baayen, R. H., and Linke, M. (in press). An introduction to the generalized additive model. In Gries, S. Th. and M. Paquot (Eds.) A practical handbook of corpus linguistics. Springer, Berlin. 
 
@@ -50,11 +46,8 @@ Bender, A., Groll, A., & Scheipl, F. (2018). A generalized additive model approa
 * [R package and tutorial](https://adibender.github.io/pammtools/)
 
 
-<<<<<<< HEAD
-# Mixed Models and Alternatives
-=======
+
 ## Mixed Models and Alternatives
->>>>>>> f805c8db844023cd236fa41a58accab95800e211
 
 McNeish, D., Stapleton, L. M., & Silverman, R. D. (2017). On the unnecessary ubiquity of hierarchical linear modeling. Psychological Methods, 22(1), 114–140. https://doi.org/10.1037/met0000078
 
