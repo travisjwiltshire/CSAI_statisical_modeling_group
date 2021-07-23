@@ -28,6 +28,11 @@ Hastie, T., Tibshirani, R., & Friedman, J. (2009). Elements of Statistical Learn
 * [Peter Hendrix's Regularized Regression Slides](https://peterhendrix.shinyapps.io/regreg/)
 * [Peter Hendrix's Regularized Regression Notebook](https://htmlpreview.github.io/?https://github.com/travisjwiltshire/CSAI_statistical_modeling_group/blob/main/materials/RegularizedRegression.html)
 
+## Linear Regression and P-values
+* [Gabriel Raya's Slides]()
+* [Gabriel Raya's Notebook](https://github.com/travisjwiltshire/CSAI_statistical_modeling_group/blob/master/linear_regression_and_its_pvalues.ipynb)
+
+
 ## Generalized Additive Model (GAM)
 
 Baayen, R. H., and Linke, M. (in press). An introduction to the generalized additive model. In Gries, S. Th. and M. Paquot (Eds.) A practical handbook of corpus linguistics. Springer, Berlin. 
