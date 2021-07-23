@@ -29,7 +29,7 @@ Hastie, T., Tibshirani, R., & Friedman, J. (2009). Elements of Statistical Learn
 * [Peter Hendrix's Regularized Regression Notebook](https://htmlpreview.github.io/?https://github.com/travisjwiltshire/CSAI_statistical_modeling_group/blob/main/materials/RegularizedRegression.html)
 
 ## Linear Regression and P-values
-* [Gabriel Raya's Slides]()
+* [Gabriel Raya's Slides](https://github.com/travisjwiltshire/CSAI_statistical_modeling_group/blob/main/materials/Linear-regression-p-values.pdf)
 * [Gabriel Raya's Notebook](https://github.com/travisjwiltshire/CSAI_statistical_modeling_group/blob/master/linear_regression_and_its_pvalues.ipynb)
 
 
